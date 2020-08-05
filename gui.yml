@@ -1,0 +1,110 @@
+MainPage:
+    InventoryName: '&aPets'
+    Dog:
+        Type: BONE
+        Name: '&aCaine'
+        Lore:
+            - '&7Alege un caine pentru a fi de partea ta'
+            - '&7Fiecare pet are acceasi abilitati!'
+            - ' '
+            - '&cNu poti schimba petul odata ales!'
+    Cat:
+        Type: COD
+        Name: '&aPisica'
+        Lore:
+            - '&7Alege o pisica pentru a fi de partea ta'
+            - '&7Fiecare pet are acceasi abilitati!'
+            - ' '
+            - '&cNu poti schimba petul odata ales!'
+PetInventory:
+    Name:
+        Type: DIAMOND_SWORD
+        Name: '%petName'
+    Level:
+        Type: EXPERIENCE_BOTTLE
+        Name: '&aLevel: &c%petLevel'
+    Xp:
+        Type: EXPERIENCE_BOTTLE
+        Name: '&aXp: &c%petXp / &a%petXpNeeded'
+    Delete:
+        Type: BARRIER
+        Name: '&c&lSterge petul'
+        Permission: loyalpets.delete
+        Lore:
+            - '&cSterge petul curent'
+            - '&cFacand asta vei pierde tot progresul la acest pet!!'
+            - ' '
+            - '&cNu il poti recupera dupa!'
+    Rename:
+        Type: NAME_TAG
+        Name: '&c&lRedenumeste petul'
+        Permission: loyalpets.rename
+        Lore:
+            - '&cRedenumeste petul'
+    Skills:
+        Type: BOOKSHELF
+        Name: '&aSkilluri'
+        Lore:
+            - '&7Deschide meniul de skilluri'
+            - '&cLa fiecare level petul a primi un punct!'
+            - '&ccare va putea fi folosit pentru a cumpara un skill!'
+            - '&aSkillPoints: %petSkillPoints'
+SkillsInventory:
+    unlocked: '&a&lDeblocat'
+    statusSkill: '&cCosta: %skillCost'
+    speed:
+        Type: SUGAR
+        Name: '&aViteza'
+        Lore:
+            - '&7Deblocheaza pentru a avea o sansa de a'
+            - '&7activa effectul uneori!'
+            - ' '
+            - '&7%statusSkill'
+    haste:
+        Type: DIAMOND_PICKAXE
+        Name: '&aHaste'
+        Lore:
+            - '&7Deblocheaza pentru a avea o sansa de a'
+            - '&7activa effectul uneori!'
+            - ' '
+            - '&7%statusSkill'
+    nutrition:
+        Type: COOKED_BEEF
+        Name: '&aNutrition'
+        Lore:
+            - '&7Deblocheaza pentru a avea o sansa de a'
+            - '&7reumple bara de mancare complet!'
+            - ' '
+            - '&7%statusSkill'
+    nightvision:
+        Type: ENDER_EYE
+        Name: '&aNight Vision'
+        Lore:
+            - '&7Deblocheaza pentru a avea o sansa de a'
+            - '&7activa effectul uneori!'
+            - ' '
+            - '&7%statusSkill'
+    regen:
+        Type: GOLDEN_APPLE
+        Name: '&aRegenerare'
+        Lore:
+            - '&7Deblocheaza pentru a avea o sansa de a'
+            - '&7activa effectul uneori!'
+            - ' '
+            - '&7%statusSkill'
+    strength:
+        Type: DIAMOND_SWORD
+        Name: '&aStrength'
+        Lore:
+            - '&7Deblocheaza pentru a avea o sansa de a'
+            - '&7activa effectul uneori!'
+            - ' '
+            - '&7%statusSkill'
+    autosmelt:
+        Type: FURNACE
+        Name: '&aAutoSmelt'
+        Lore:
+            - '&7Deblocheaza pentru a avea o sansa de a'
+            - '&7topi minereul minat pentru o perioada de timp!'
+            - ' '
+            - '&7%statusSkill'

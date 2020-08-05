@@ -1,0 +1,29 @@
+PetConfig:
+    Name: '&6%petName &7| &cNivel &a%level'
+Messages:
+    typeCancel: '&c&lScrie cancel pentru a anula!'
+    typeName: '&7&lScrie numele petului!'
+    skillBought: '&7Ai cumparat cu succes skillul!'
+    notEnoughPoints: '&cNu ai destule puncte!'
+    petRename: '&aAi schimbat numele petului!'
+SkillsCost:
+    speed: 2
+    haste: 2
+    strength: 3
+    regen: 3
+    nightvision: 2
+    nutrition: 3
+    autosmelt: 3
+LevelUp:
+    levelMultiply: 40
+Exp:
+    blockBreak: 1
+    mobKilled: 1
+SkillsConfig:
+    timeBetweenSkills: 60
+    speedEffect: 30
+    hasteEffect: 30
+    strengthEffect: 30
+    nightvisionEffect: 30
+    regenEffect: 30
+    autosmeltEffect: 20

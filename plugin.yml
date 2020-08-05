@@ -1,0 +1,10 @@
+name: LoyalPets
+author: Stellrow
+main: main.PetsMain
+version: 1.0
+api-version: 1.13
+
+commands:
+    pets:
+        usage: /pets
+        description: Default command
